@@ -1,5 +1,10 @@
 // Exercise 2
 // ----------
 
-const lateComers = ['Felicia', 'Charles', 'Terry'];
-const earlyBirds = ['Ellen', 'Jerry', 'Jasmine'];
+//printGuestOrder(earlyBirds, lateComers);
+
+const lateComers = ["Felicia", "Charles", "Terry"];
+const earlyBirds = ["Ellen", "Jerry", "Jasmine"];
+
+let printGuestOrder = earlyBirds.concat(lateComers);
+console.log(printGuestOrder);
