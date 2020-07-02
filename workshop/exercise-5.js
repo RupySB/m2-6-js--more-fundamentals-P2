@@ -8,15 +8,6 @@ const foodPairings = {
   strawberries: "cream",
 };
 
-// getValue = object.assign(
-//   {
-//     foodPairings,
-//   },
-//   object
-// );
-
-// console.log(object);
-
 const getValue = (theObj, string) => {
   if (Object.keys(theObj).includes(string)) {
     return theObj[string];
